@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1280px){
+    .review-detail{
+        line-height: 1.1;
+        font-size: 11px;
+    }
+}
+
+
+@media only screen and (max-width: 1100px){
+    .review-detail{
+        line-height: 1.0;
+        font-size: 10.5px;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .form-background{
+        margin-left: 0 !important;
+    }
+
+    .right-card{
+        float: left !important;
+    }
+    .container{
+        padding-left: 15px !important;
+    }
+    .review-card{
+        width: 52% !important;
+    }
+    .form input{
+        padding: 8px 40px;
+    }
+    .draw1{
+        top: 7.5%;
+    }
+    .draw2{
+        top: 30.8%;
+    }
+    .draw3{
+        top: 54.2%;
+    }
+    .draw4{
+        top: 77.8%;
+    }
+    #nex{
+        right:3%;
+    }
+    #pre{
+        left: 7%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .review-right{
+        float: left !important;
+        margin-top: 40px !important;
+    }
+    .buttons .row{
+        padding-left: 0 !important;
+    }
+    .review-card{
+        width: 64% !important; 
+    }
+}
+
+@media only screen and (max-width:660px){
+    .form input{
+        width: 85%;
+        padding: 8px 50px;
+    }
+}
+
+
+@media only screen and (max-width:540px){
+    .form input{
+        width: 90%;
+        padding: 8px 35px;
+    }
+    .review-card{
+        width: 80% !important;
+    }
+    .week-button{
+        margin-right: 4% !important;
+    }
+}
+@media only screen and (max-width:440px){
+    .review-card{
+        width: 90% !important;
+    }
+}
