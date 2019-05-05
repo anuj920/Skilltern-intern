@@ -1,0 +1,95 @@
+.review-card {
+    padding: 20px 10px 15px 15px;
+    background: #EEEEEE;
+    border: .5px solid #BDBDBD;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.review-right {
+    float: right !important;
+    margin-top: 20px !important;
+}
+
+.image-holder {
+    position: absolute;
+    background-size: 100% 100%;
+    height: 75%;
+    width: 27%;
+}
+
+.reviews {
+    position: relative;
+}
+
+.review-detail {
+    line-height: 1.4;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#review-slide {
+    position: absolute;
+    width: 60%;
+    left: 37%;
+}
+#card1 {
+    position: absolute;
+    transform: translateX(0px) scale(1.3);
+    z-index: 99;
+    border: 1px solid gray;
+    transition: all .5s;
+}
+
+
+#card2 {
+    position: absolute;
+    transform: translateX(-65%);
+    z-index: 9;
+    border: 1px solid gray;
+    transition: all .5s;
+    filter: blur(1px);
+}
+
+#card3 {
+    position: absolute;
+    transform: translateX(65%);
+    z-index: 9;
+    border: 1px solid gray;
+    transition: all .5s;
+    filter: blur(1px);
+}
+
+#pre {
+    font-size: 55px;
+    color: gray;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 53%;
+    left: 14%;
+    display: none;
+}
+
+#pre:hover {
+    cursor: pointer;
+}
+
+#nex {
+    font-size: 55px;
+    color: gray;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 53%;
+    right: 15%;
+    display: none;
+}
+
+#nex:hover {
+    cursor: pointer;
+}
+.reviews:hover #pre,.reviews:hover #nex{
+    display: block;
+}

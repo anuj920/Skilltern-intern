@@ -3,6 +3,12 @@
         line-height: 1.1;
         font-size: 11px;
     }
+    #nex{
+        top: 50%;
+    }
+    #pre{
+        top: 50%;
+    }
 }
 
 
@@ -44,15 +50,26 @@
     .draw4{
         top: 77.8%;
     }
+    #review-slide {
+        position: absolute;
+        width: 60%;
+        left: 35%;
+    }
     #nex{
-        right:3%;
+        top: 50%;
+        right:5%;
     }
     #pre{
+        top: 50%;
         left: 7%;
     }
 }
 
 @media only screen and (max-width:768px){
+    .reviews{
+        height: 310px !important;
+    }
+    
     .review-right{
         float: left !important;
         margin-top: 40px !important;
@@ -61,7 +78,20 @@
         padding-left: 0 !important;
     }
     .review-card{
-        width: 64% !important; 
+        padding: 15px 8px 12px 12px !important;
+        width: 55% !important; 
+    }
+    .name h5{
+        margin-bottom: 20px !important;
+    }
+    .review-detail{
+        line-height: 1.0;
+        font-size: 9px;
+    }
+    #review-slide {
+        position: absolute;
+        width: 58%;
+        left: 35%;
     }
 }
 
@@ -69,6 +99,23 @@
     .form input{
         width: 85%;
         padding: 8px 50px;
+    }
+    .review-card{
+        padding: 12px 6px 10px 10px !important;
+        width: 55% !important; 
+    }
+    .name h5{
+        margin-bottom: 15px !important;
+    }
+    .review-detail{
+        line-height: .9;
+        font-size: 9px;
+    }
+    #nex{
+        font-size: 50px;
+    }
+    #pre{
+        font-size: 50px;
     }
 }
 
@@ -78,15 +125,61 @@
         width: 90%;
         padding: 8px 35px;
     }
-    .review-card{
-        width: 80% !important;
-    }
     .week-button{
         margin-right: 4% !important;
     }
+    .reviews{
+        height:290px !important;
+    }
+    .review-card{
+        padding: 9px 3px 4px 5px !important;
+        width: 55% !important; 
+    }
+    .name h5{
+        margin-bottom: 12px !important;
+    }
+    .review-detail{
+        line-height: .9;
+        font-size: 8.5px;
+    }
+    #review-slide {
+        position: absolute;
+        width: 68%;
+        left: 31%;
+    }
+    #nex{
+        top: 54%;
+        right:1.5%;
+        font-size: 40px;
+    }
+    #pre{
+        top: 54%;
+        left: 1.5%;
+        font-size: 40px;
+    }
 }
 @media only screen and (max-width:440px){
+    .reviews{
+        height: 290px !important;
+    }
     .review-card{
-        width: 90% !important;
+        padding: 8px 2px 3px 3.5px !important;
+        width: 55% !important; 
+    }
+    .image-holder{
+        height: 85%;
+        width: 29%;
+    }
+    .name h5{
+        margin-bottom: 10px !important;
+    }
+    .review-detail{
+        line-height: .9;
+        font-size: 8px;
+    }
+    #review-slide {
+        position: absolute;
+        width: 66.5%;
+        left: 31.5%;
     }
 }

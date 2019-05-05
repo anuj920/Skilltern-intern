@@ -1,0 +1,80 @@
+.week1 thead {
+    background: #757575;
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.table th {
+    font-size: 16px;
+    padding: 0 25px;
+    color: white;
+    height: 60px;
+}
+
+.table td {
+    padding: 0 10px 0px 20px;
+    color: #616161;
+    font-size: 13px !important;
+    font-weight: 500;
+    height: 60px;
+    line-height: 1.2;
+}
+
+
+table td:first-child{
+    padding: 0 10px 0 30px;
+}
+
+table th:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+table th:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+@mixin left-border( $top, $backcolor){
+    position: absolute;
+    top: $top;
+    width: 12px;
+    height: 21%;
+    background: $backcolor;
+    border-radius: 3px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.draw1{
+   @include left-border(7%,#0B63C3);
+}
+.draw2{
+    @include left-border(30%,#08417F);
+}
+.draw3{
+    @include left-border(53%,#052B54);
+}
+.draw4{
+    @include left-border(76%,#021121);
+}
+
+.week-button{
+    padding: 1px 20px;
+    border-radius: 5px;
+    color: white;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5.8%;
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.week-button a{
+    color: white;
+    text-decoration: none;
+}
+.week-button a:hover{
+    color: white;
+    text-decoration: none;
+}

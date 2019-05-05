@@ -1,0 +1,22 @@
+@import '0-varible/varible';
+
+@import '1-base/base';
+
+@import 'course-title/background';
+@import 'course-title/course-title';
+
+@import 'course-details/form';
+@import 'course-details/details';
+@import 'course-details/course-extra';
+
+@import 'table/table';
+
+@import 'card/card';
+@import 'card/review-card';
+
+@import 'card/button';
+
+.others span i{
+    font-size: 50px;
+  }
+  

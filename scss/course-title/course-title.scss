@@ -1,0 +1,20 @@
+@import '../0-varible/varible';
+
+.tilte-detail{
+    margin: 140px auto;
+    text-align: center;
+    color: $white;
+  }
+  .course_name{
+    margin-bottom: 20px;
+  }
+  .course_name h1{
+    font-weight: 900;
+    font-size: $size;
+  }
+.course_tutor p{
+    font-size: $size - 30px;
+    font-weight: 500;
+    color: #E0E0E0;
+
+}

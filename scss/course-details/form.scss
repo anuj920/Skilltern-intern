@@ -1,0 +1,36 @@
+.form-background{
+    background-color: #263238;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form input {
+    padding: 8px 20px;
+    font-size: 18px;
+    width: 75%;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    margin-bottom: 1.2em;
+    font-weight: 600;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    background: rgba(255, 255, 255, 1);
+    color: #263238;
+}
+input[type="submit"] {
+    color: white;
+    background: #263238;
+}
+.form_text p{
+    color: white !important;
+    font-size: 24px !important;
+}
+.form_text span{
+    font-size: 20px;
+}
+
+

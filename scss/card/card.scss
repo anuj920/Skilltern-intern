@@ -1,0 +1,32 @@
+.card{
+    padding: 20px 10px 15px 15px;
+    background: #131013;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card h4{
+    color: white;
+    margin-bottom: 2px;
+}
+
+.right-card{
+    float: right !important;
+}
+.card p{
+    color: #dddddd;
+    line-height: 1.1;
+    font-size: 12px;
+    font-weight: 400;
+}
+.contact span{
+    background: red;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.contact span i{
+    font-size: 16px;
+    text-align: center;
+    padding: 5px auto;
+    color: white;
+  }

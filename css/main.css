@@ -229,8 +229,8 @@ tr:nth-child(even) {
 
 #review-slide {
   position: absolute;
-  width: 64%;
-  left: 36%; }
+  width: 60%;
+  left: 37%; }
 
 #card1 {
   position: absolute;
@@ -261,8 +261,9 @@ tr:nth-child(even) {
   text-align: center;
   line-height: 30px;
   position: absolute;
-  top: 55%;
-  left: 14%; }
+  top: 53%;
+  left: 14%;
+  display: none; }
 
 #pre:hover {
   cursor: pointer; }
@@ -273,11 +274,15 @@ tr:nth-child(even) {
   text-align: center;
   line-height: 30px;
   position: absolute;
-  top: 55%;
-  right: 15%; }
+  top: 53%;
+  right: 15%;
+  display: none; }
 
 #nex:hover {
   cursor: pointer; }
+
+.reviews:hover #pre, .reviews:hover #nex {
+  display: block; }
 
 .button {
   padding: 5px 30px;
