@@ -5,5 +5,14 @@
     text-align: center;
     color: white;
     margin-top: 35px;
-
+}
+.button-effect{
+    transition: all 0.3s;
+}
+.button-effect:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 15px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.button-effect:active{
+    transform: scale(.95);
 }

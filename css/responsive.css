@@ -93,12 +93,21 @@
         width: 58%;
         left: 35%;
     }
+    .card:hover{
+        transform: scale(1.07);
+    }
+    .button-effect:hover{
+        transform: scale(1.07);
+    }
 }
 
 @media only screen and (max-width:660px){
     .form input{
         width: 85%;
         padding: 8px 50px;
+    }
+    .form button{
+        width: 85%;
     }
     .review-card{
         padding: 12px 6px 10px 10px !important;

@@ -7,8 +7,8 @@ body {
   padding: 0%; }
 
 a:hover {
-  color: white;
-  text-decoration: none; }
+  color: white !important;
+  text-decoration: none !important; }
 
 .title {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Image/blog.jpg);
@@ -54,6 +54,57 @@ input[type="email"] {
 input[type="submit"] {
   color: white;
   background: #263238; }
+
+.form button {
+  padding: 8px 20px;
+  font-size: 18px;
+  width: 75%;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  margin-bottom: 1.2em;
+  font-weight: 600;
+  color: white;
+  background: #263238;
+  transition: all 0.5s linear;
+  z-index: 1;
+  position: relative;
+  overflow: hidden; }
+
+.form button::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+.form button:hover::before {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  opacity: 1; }
+
+.form button:hover {
+  color: #263238; }
 
 .form_text p {
   color: white !important;
@@ -169,7 +220,9 @@ tr:nth-child(even) {
 
 .week-button h5 {
   margin: 0;
-  padding: 10px 0; }
+  padding: 10px 0;
+  color: white !important;
+  text-decoration: none !important; }
 
 .week-button a {
   color: white;
@@ -179,11 +232,19 @@ tr:nth-child(even) {
   color: white;
   text-decoration: none; }
 
+.week-button a:active {
+  text-decoration: none !important;
+  color: white !important; }
+
 .card {
   padding: 20px 10px 15px 15px;
   background: #131013;
   border-radius: 10px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s; }
+
+.card:hover {
+  transform: scale(1.1); }
 
 .card h4 {
   color: white;
@@ -308,6 +369,16 @@ tr:nth-child(even) {
   text-align: center;
   color: white;
   margin-top: 35px; }
+
+.button-effect {
+  transition: all 0.3s; }
+
+.button-effect:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 15px 15px -5px rgba(0, 0, 0, 0.3); }
+
+.button-effect:active {
+  transform: scale(0.95); }
 
 .others span i {
   font-size: 50px; }

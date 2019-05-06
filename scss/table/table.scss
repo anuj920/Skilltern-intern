@@ -73,8 +73,9 @@ tr:nth-child(even) {
 .week-button h5{
     margin: 0;
     padding: 10px 0;
+    color: white !important;
+    text-decoration: none !important;
 }
-
 .week-button a{
     color: white;
     text-decoration: none;
@@ -82,4 +83,8 @@ tr:nth-child(even) {
 .week-button a:hover{
     color: white;
     text-decoration: none;
+}
+.week-button a:active{
+    text-decoration: none !important;
+    color: white !important;
 }

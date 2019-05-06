@@ -25,6 +25,59 @@ input[type="submit"] {
     color: white;
     background: #263238;
 }
+
+.form button{
+    padding: 8px 20px;
+    font-size: 18px;
+    width: 75%;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    margin-bottom: 1.2em;
+    font-weight: 600;
+    color: white;
+    background: #263238;
+    transition: all 0.5s linear;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+.form button::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.form button:hover::before{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    opacity: 1;
+}
+.form button:hover{
+    color: #263238;
+}
+
 .form_text p{
     color: white !important;
     font-size: 24px !important;
