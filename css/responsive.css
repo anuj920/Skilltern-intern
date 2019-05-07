@@ -134,6 +134,9 @@
         width: 90%;
         padding: 8px 35px;
     }
+	.form button{
+		width: 90%;
+	}
     .week-button{
         margin-right: 4%;
     }
