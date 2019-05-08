@@ -1,0 +1,33 @@
+.share-button{
+    position: relative;
+}
+.share{
+    position: absolute;
+    top: -20%;
+    left: 23%;
+    font-size: 22px;
+    z-index: 100;
+    display: none;
+    padding: 7.5px 20px;
+}
+
+.fab{
+    transition: all 0.5s;
+}
+.fab:hover{
+    transform: scale(1.8);
+}
+.fab:active{
+    transform: scale(1.2);
+}
+.facebook {
+    color: blue;
+}
+
+.twitter{
+    color: #42A5F5;
+}
+
+.whatsapp{
+    color: green;
+}

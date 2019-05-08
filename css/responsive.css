@@ -11,6 +11,11 @@
     }
 }
 
+@media only screen and (max-width: 1200px){
+    .share{
+        left: 16%;
+    }
+}
 
 @media only screen and (max-width: 1100px){
     .review-detail{
@@ -63,9 +68,14 @@
         top: 50%;
         left: 7%;
     }
+    .share{
+        left: 12%;
+        top: -15%;
+        padding: 6px 10px;
+    }
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:767px){
     .reviews{
         height: 310px !important;
     }
@@ -97,7 +107,14 @@
         transform: scale(1.07);
     }
     .button-effect:hover{
-        transform: scale(1.07);
+        transform: scale(1.04);
+    }
+    .share{
+        left: 39%;
+        top: -88%;
+    }
+    .fab:hover{
+        transform: scale(1.6);
     }
 }
 
@@ -125,6 +142,9 @@
     }
     #pre{
         font-size: 50px;
+    }
+    .share{
+        left: 37%;
     }
 }
 
@@ -169,6 +189,9 @@
         left: 1.5%;
         font-size: 40px;
     }
+    .share{
+        left: 34.5%;
+    }
 }
 @media only screen and (max-width:440px){
     .reviews{
@@ -194,6 +217,9 @@
         width: 66.5%;
         left: 31.5%;
     }
+    .share{
+        left: 31.5%;
+    }
 }
 @media only screen and (max-width:380px){
     .draw2{
@@ -207,5 +233,8 @@
     .draw4{
         top: 78.5%;
         height: 20.5%;
+    }
+    .share{
+        left: 29.5%;
     }
 }

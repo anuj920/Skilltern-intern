@@ -81,7 +81,8 @@
                                     <input type="email" name="email" placeholder="Email addrees" class="email" required>
                                     <input type="text" name="number" placeholder="Phone Number" class="number" required>
                                     <div class="form-button" style="margin-bottom: 1%">
-                                        <button type="submit" name="submit" value="Get Upskilled!">Get UpSkilled!</button>
+                                        <button type="submit" name="submit" value="Get Upskilled!">Get
+                                            UpSkilled!</button>
                                     </div>
                                     <div class="form_text">
                                         <p><span style='color:white;text-decoration:line-through'><span
@@ -447,17 +448,33 @@
     <section>
         <div class="buttons">
             <div class="container" style="padding-left:30px;">
-                <div class="row" style="padding-left:55px; margin:0 auto 40px auto;">
+                <div class="row" style="padding-left:55px; margin:0 auto 40px auto; z-index: 10;">
                     <a href="">
-                        <div class="button button-effect col-sm-3" style="background: linear-gradient(to left, #01579b, #000000);">
+                        <div class="button button-effect col-sm-3"
+                            style="background: linear-gradient(to left, #01579b, #000000);">
                             <h5>TAKE THIS COURSE NOW</h5>
                         </div>
                     </a>
-                    <a href="">
-                        <div class="button button-effect col-sm-3 col-sm-offset-1" style="background: #01579b;">
+                    <div class="share-button col-sm-3 col-sm-offset-1" style="padding: 0;">
+                        <div class="share">
+                            <a href="" id="twitter" onclick="window.open(this.href, 'Twitter',
+                            'left=400,top=100,width=500,height=500,toolbar=1,resizable=0'); return false;">
+                                <span style="padding:5px 5px 3px 5px;"><i class="fab fa-twitter twitter"></i></span>
+                            </a>
+                            <a href="" id="facebook" onclick="window.open(this.href, 'Twitter',
+                            'left=400,top=100,width=500,height=500,toolbar=1,resizable=0'); return false;">
+                                <span style="padding:3.5px 10px 3.5px 10px"><i
+                                        class="fab fa-facebook-square facebook"></i></span>
+                            </a>
+                            <a href="" id="whatsapp" target="_blank">
+                                <span style="padding:4px 6px 4px 5px"><i class="fab fa-whatsapp whatsapp"></i></span>
+                            </a>
+                        </div>
+                        <div class="button button-effect share-to col-sm-12" style="background: #01579b; cursor: pointer; ">
                             <h5>SHARE IT TO A FRIEND</h5>
                         </div>
-                    </a>
+                    </div>
+
                     <a href="">
                         <div class="button button-effect col-sm-3 col-sm-offset-1"
                             style="background: linear-gradient(to right, #01579b, #000000);">
