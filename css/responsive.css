@@ -20,7 +20,7 @@
     position: relative;
     padding: 5px;
     display: flex;
-    font-size: 50px;
+    font-size: 45px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -31,14 +31,16 @@
     position: absolute;
     top: 0%;
     right: 10px;
-    font-size: 30px !important;
-    transform: rotate(45deg) !important;
+    font-size: 30px;
+    transform: rotate(45deg);
     cursor: pointer;
     color: gray;
+    transition: all 0.3s;
 }
 
 .close-button:hover{
     color: black;
+    transform: rotate(45deg) scale(1.3);
 }
 
 @keyframes slide-down {
