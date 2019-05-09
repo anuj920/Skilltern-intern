@@ -130,19 +130,20 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    share = 0;
     $(".share-to").click(function () {
-        if (share == 0) {
-            $(".share").css({
-                "display": "block"
+            $(".share-bg").css({
+                "display": "flex"
             })
-            share = 1;
-        } else if (share == 1) {
-            $(".share").css({
+            $("body").css({"overflow":"hidden"});
+    });
+});
+
+$(document).ready(function () {
+    $(".close-button").click(function () {
+            $(".share-bg").css({
                 "display": "none"
             })
-            share=0;
-        }
+            $("body").css({"overflow":"visible"});
     });
 });
 
