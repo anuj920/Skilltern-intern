@@ -153,5 +153,6 @@ $(document).ready(function () {
         document.getElementById("twitter").href="http://twitter.com/share?text=I'm Sharing on Twitter&url="+current_add;
         document.getElementById("facebook").href="https://www.facebook.com/sharer.php?u="+current_add;
         document.getElementById("whatsapp").href="https://api.whatsapp.com/send?text="+current_add;
+        document.getElementById("email").href="mailto:?subject=I wanted you to see this site&body=Check out this site "+current_add;
     });
 });
